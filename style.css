@@ -1,0 +1,263 @@
+/* Colors and fonts */
+body {
+	background-color: #E3E1DE;
+	font-family: 'Poppins', sans-serif;
+}
+	h1 {color: #F6F5F4;
+		text-align: center;
+	}
+	h2 {color: #197163;
+		text-align: center
+	}
+	h3 {color: #0D2149;
+		text-align: center
+	}
+	img {width: 120px}
+	li {list-style-type: none}
+	i {font-size: 130px;}
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	
+	div{
+		padding: 30px;
+	    border-radius: 4px;
+	    margin: 10px;
+			}
+
+		.section{
+			background: #F6F5F4;
+		    padding: 30px;
+		    border-radius: 4px;
+		    margin: 10px;
+		    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+		  
+		}
+
+			#banner h1 {
+			background: #197163;
+			text-align: center;
+			border-radius: 4px;
+			
+			}
+			#banner img {
+				width: 180px;
+				border-radius: 90px;
+				box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			#banner p {
+				font-weight: bold;
+			    font-style: italic;
+			    font-size: larger;
+			    padding-bottom: 10px;
+			    text-align: center;
+			}
+
+			#banner ul {
+				padding-left: 0px;
+				text-align: center;
+				display: flex;
+				justify-content: space-around;
+			}
+
+			#banner li {
+				background: #E3E1DE;
+				margin: 30px;
+				height: 40px;
+				width: 170px;	
+				display: inline;
+				font-weight: bold;
+				box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+				text-align: center;
+				display: flex;
+    			align-items: center;
+    			justify-content: center;
+			}
+
+				#banner #age {
+					border: 1px solid #197163;
+					border-radius: 4px;
+					
+				}
+
+				#banner #name {
+					border: 1px solid #197163;
+					border-radius: 4px;
+				}
+
+				#banner #city {
+					border: 1px solid #197163;
+					border-radius: 4px;
+				}
+
+			@media (max-width: 730px) {
+				.section#banner ul {
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.section#banner li {
+					padding-left: 20px;
+					padding-right: 20px;	
+				}	
+			}
+
+
+
+
+			#formation {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding-top: 20px;
+			}
+
+			#formation div {
+				display: flex;
+				align-items: center;
+				padding: 0;
+			}
+
+				#formation p {
+					margin-left: 10px;
+					width: 170px;
+				}
+
+				#formation a {
+					display: block;
+					height: 85px;
+					width: 150px;
+					background: #E3E1DE;
+					border: 1px solid #0D2149;
+					border-radius: 4px;
+					box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+					text-align: center;
+				}
+
+				#formation img {
+					
+				}
+
+					#formation #FStaille {
+						width: 90px
+
+					}
+
+					#formation #KBStaille {
+						width: 130px
+
+					}
+
+					#formation #TCtaille {
+						width: 150px
+					}
+
+			@media (max-width: 1250px) {
+			#formation {
+				flex-direction: column;
+			}
+			#formation a {
+				margin-bottom: 30px;
+			}
+		}
+		
+		#experiences1 {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				padding-left: 120px;
+				padding-right: 120px; 
+				}	
+			#experiences1 img {
+				width: 150px;
+			}
+
+		#experiences2 {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				padding-left: 120px;
+				padding-right: 120px; 
+				}	
+			#experiences2 img {
+				width: 150px;	
+			}
+
+		#experiences3 {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				padding-left: 120px;
+				padding-right: 120px; 
+				}	
+			#experiences3 img {
+				width: 200px;
+			}
+
+			.overlay-image {
+				position: relative;
+				padding: 0;
+				margin: 0;
+			}
+
+			.overlay-text {
+				position: absolute;
+				padding: 0;
+				margin: 0;
+				top: 0;
+				opacity: 0;
+				background-color: rgba(0,0,0,0.5);
+				height: 100%;
+				width: 100%;
+				color: white;
+				display: flex;
+	    		align-items: center;
+	    		justify-content: center;
+			}
+
+			.overlay-text:hover {
+				opacity: 1;	
+			}
+		
+
+		#skills1 {
+			display: flex;
+    		justify-content: space-around;
+    		align-items: center;
+		}
+		#skills2 {
+			display: flex;
+    		justify-content: space-around;
+    		align-items: center;
+		}
+
+		#hobbies1{	
+			display: flex;
+    		justify-content: space-around;
+    		align-items: center;
+    		padding-left: 100px;
+    		padding-right: 100px;
+		}
+			#hobbies1 img{
+				width: 160px;
+			}
+		#hobbies2{
+			display: flex;
+    		justify-content: space-around;
+    		align-items: center;
+		}
+			#hobbies2 i{
+				font-size: 60px;
+			}
+		#social-link{
+			display: flex;
+    		justify-content: space-around;
+    		align-items: center;
+    	}	
+    		#social-link i{
+    			font-size: 40px;
+    		}
